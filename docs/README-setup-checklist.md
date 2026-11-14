@@ -1,0 +1,15 @@
+# Setup checklist
+- [ ] Confirm Health Secure System proposal approval with instructor before registration coding.
+- [ ] Copy config.sample.php to a private config.php outside web root.
+- [ ] Configure database, SMTP, CAPTCHA and encryption key.
+- [ ] Import database/schema.sql.
+- [ ] Install PHPMailer using Composer.
+- [ ] Create and verify one test user; promote to admin manually.
+- [ ] Test CAPTCHA server-side by removing the token in browser tools.
+- [ ] Test lockout at 3, 6 and 9 failures.
+- [ ] Test OTP expiry, three wrong attempts, resend cooldown and resend limit.
+- [ ] Test forgot-password answer and password history.
+- [ ] Test admin dashboard JSON endpoint while logged out and as normal user.
+- [ ] Run php scripts/monitor.php from CLI.
+- [ ] Use fictional test data only.
+- [ ] Make at least 30 meaningful commits over at least four weeks as required by the handout.

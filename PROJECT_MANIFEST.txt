@@ -1,0 +1,4 @@
+Health Secure System - IT 107 project starter
+Stack: PHP 8.1+, MySQL, HTML, CSS, JavaScript, PHPMailer, Google reCAPTCHA v2
+Seed: D1=0, D2=0
+Read README.md and docs/ before setup.
